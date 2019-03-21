@@ -3,9 +3,9 @@ package at.fhj.iit;
 public interface Greeter {
 	
 	/**
-	 * Student 1
-	 * Student 2
-	 * Student 3 (OPTIONAL)
+	 * Student 1 Joachim
+	 * Student 2 Ulrike
+	 *
 	 * 
 	 * TODO Instruction for GIT Lab for Grading GIT Part of Configuration Management
 	 *  - copy content of this git repository / zip file
