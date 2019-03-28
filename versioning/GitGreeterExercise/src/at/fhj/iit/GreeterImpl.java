@@ -1,6 +1,6 @@
 package at.fhj.iit;
 
-public class GreeterImpl{
+public class GreeterImpl implements Greeter{
     private String name;
 
     GreeterImpl(String name){
@@ -18,4 +18,16 @@ public class GreeterImpl{
     public String toString(){
         return this.name;
     }
+
+    public void sayHello(){
+
+    }
+
+    public void sayGoodbye(){
+        System.out.println("Good Bye, " + this.getName() + "!");
+    }
+
+
+
+
 }

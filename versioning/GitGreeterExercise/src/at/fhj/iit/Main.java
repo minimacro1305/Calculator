@@ -4,15 +4,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		GreeterImpl g = new GreeterImpl("Team Joachim&Ulrike");
+		Greeter g = new GreeterImpl("Team Joachim&Ulrike");
 
-		//sayHello();
-		sayGoodbye(g);
+		g.sayHello();
+
+        g.sayGoodbye();
+
 	}
 
 
-	public static void sayGoodbye(GreeterImpl g){
-		System.out.println("Good Bye, " + g + "!");
-	}
 
 }
